@@ -21,6 +21,11 @@ body {
 button {
   cursor: pointer;
 }
+
+address {
+  font-style: normal;
+}
+
 /* Header */
 
 .header-logo {
