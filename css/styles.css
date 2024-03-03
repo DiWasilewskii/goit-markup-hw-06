@@ -22,12 +22,10 @@ button {
   cursor: pointer;
 }
 
-address {
+/* Header */
+.header-address {
   font-style: normal;
 }
-
-/* Header */
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -146,6 +144,7 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
 }
 .team-list {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -183,6 +182,7 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
