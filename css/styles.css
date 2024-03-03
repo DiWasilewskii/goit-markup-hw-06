@@ -89,19 +89,18 @@ button {
 }
 
 .hero-btn {
-    font-family: "Roboto", sans-serif
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 
-.hero-btn:hover,.hero-btn:focus {background-color: #404BBF}
-
-
-
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 
 /* hero end */
 
@@ -131,7 +130,6 @@ button {
 
 .team {
   background: #f4f4fd;
-  background-color: #ffffff;
 }
 .team-titel {
   font-weight: 700;
@@ -142,7 +140,9 @@ button {
   text-align: center;
 }
 .team-list {
-  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .team-item {
 }
