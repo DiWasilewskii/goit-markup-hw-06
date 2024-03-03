@@ -1,8 +1,26 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 
-/* Header start */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+/* Header */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -14,7 +32,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-logo > span {
+.header-logo span {
   color: #2e2f42;
 }
 
@@ -23,18 +41,37 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+}
+
+.header-menu-link:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.header-menu-link span:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 .header-contact-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Header end */
+.header-contact-link:hover {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
 
 /* Hero start */
 
@@ -52,13 +89,6 @@ body {
 }
 
 .hero-btn {
-  /* border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5; */
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,15 +107,31 @@ body {
 .advatages-item {
 }
 .advatages-title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .advatages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* team */
 
 .team {
+  background: #f4f4fd;
 }
 .team-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
@@ -94,8 +140,17 @@ body {
 .team-img {
 }
 .team-titel-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* Portdolio */
@@ -103,6 +158,12 @@ body {
 .Portfolio {
 }
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-list {
 }
@@ -111,15 +172,39 @@ body {
 .portfolio-img {
 }
 .portfolio-titel-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* footer */
 
 .footer {
+  background: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
