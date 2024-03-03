@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Header start */
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -32,6 +34,10 @@ body {
   color: #434455;
 }
 
+/* Header end */
+
+/* Hero start */
+
 .hero {
   background: #2e2f42;
 }
@@ -58,4 +64,62 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+/* hero end */
+
+/* Advantages */
+
+.advatages {
+}
+.advatages-list {
+}
+.advatages-item {
+}
+.advatages-title-text {
+}
+.advatages-text {
+}
+
+/* team */
+
+.team {
+}
+.team-titel {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-titel-text {
+}
+.team-text {
+}
+
+/* Portdolio */
+
+.Portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-titel-text {
+}
+.portfolio-text {
+}
+
+/* footer */
+
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
 }
