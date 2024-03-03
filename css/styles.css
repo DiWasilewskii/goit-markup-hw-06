@@ -51,7 +51,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -59,13 +60,13 @@ button {
   color: #404bbf;
 }
 
-.header-span:focus {
+/* .header-span:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
-}
+} */
 
 .header-contact-link {
   font-size: 16px;
@@ -74,7 +75,8 @@ button {
   color: #434455;
 }
 
-.header-contact-link:hover {
+.header-contact-link:hover,
+.header-contact-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
