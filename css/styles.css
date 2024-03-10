@@ -52,8 +52,6 @@ address {
 
 img {
   display: block;
-
-  max-width: 100%;
 }
 
 .container {
@@ -184,6 +182,8 @@ img {
 
   display: flex;
   margin: 0 auto;
+  display: block;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
