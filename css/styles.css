@@ -50,7 +50,7 @@ address {
   overflow: hidden;
 }
 
-.img {
+img {
   display: block;
 
   max-width: 100%;
