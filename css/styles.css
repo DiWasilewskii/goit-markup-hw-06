@@ -426,6 +426,7 @@ address {
   width: 264px;
   height: 112px;
   margin-left: 156px;
+  display: flex;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
