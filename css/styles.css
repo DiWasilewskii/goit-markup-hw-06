@@ -296,7 +296,9 @@ address {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
   width: calc((100% - 24px * 3) / 4);
 }
 
@@ -320,8 +322,36 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
+.team-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-icon-item {
+}
+
+.container-team-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.team-icon {
+  fill: white;
+}
+/* .container-team-icon:hover {
+  background: #31d0aa;
+} */
 /* Portdolio */
 
 .portfolio {
@@ -349,6 +379,13 @@ address {
 .portfolio-item {
   width: calc((100% - 24 * 2) / 3);
 }
+
+.portfolio-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
 .portfolio-img {
 }
 
@@ -409,4 +446,32 @@ address {
 
   padding-top: 16px;
   max-width: 264;
+}
+
+.footer-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-icon-item {
+}
+
+.container-footer-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.team-icon {
+  fill: white;
+}
+.container-footer-icon:hover {
+  background: #31d0aa;
 }
