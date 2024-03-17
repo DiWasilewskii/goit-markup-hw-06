@@ -433,6 +433,7 @@ address {
   height: 112px;
   margin-left: 156px;
   display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
