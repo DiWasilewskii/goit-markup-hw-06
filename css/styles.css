@@ -349,9 +349,7 @@ address {
 .team-icon {
   fill: white;
 }
-/* .container-team-icon:hover {
-  background: #31d0aa;
-} */
+
 /* Portdolio */
 
 .portfolio {
@@ -417,12 +415,13 @@ address {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
-
-.footer-container {
-  padding-right: 864px;
+.container-footer {
+  width: 264px;
+  height: 112px;
+  margin-left: 156px;
 }
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -446,6 +445,24 @@ address {
 
   padding-top: 16px;
   max-width: 264;
+}
+
+.container-footer-media {
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+}
+
+.title-icon {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  margin-bottom: 16px;
 }
 
 .footer-icon-list {
