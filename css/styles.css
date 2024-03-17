@@ -437,6 +437,8 @@ address {
 }
 
 .logo-container {
+  width: 264px;
+  height: 112px;
   margin-right: 120px;
 }
 
@@ -461,8 +463,9 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 
-  padding-top: 16px;
-  max-width: 264;
+  margin: 0 auto;
+
+  max-width: 264px;
 }
 
 .container-footer-media {
