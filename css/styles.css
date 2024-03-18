@@ -90,8 +90,7 @@ address {
   margin-right: 76px;
 }
 
-.header-menu-link,
-.curent {
+.header-menu-link.curent {
   position: relative;
   color: #404bbf;
 }
