@@ -90,7 +90,7 @@ address {
   margin-right: 76px;
 }
 
-.curent {
+.header-menu-link .curent {
   position: relative;
   color: #404bbf;
 }
@@ -457,16 +457,12 @@ address {
   display: flex;
 }
 .container-footer {
-  width: 264px;
-  height: 112px;
   margin-left: 156px;
   display: flex;
   align-items: baseline;
 }
 
 .logo-container {
-  width: 264px;
-  height: 112px;
   margin-right: 120px;
 }
 
@@ -497,9 +493,6 @@ address {
 }
 
 .container-footer-media {
-  width: 208px;
-  height: 80px;
-  margin-left: 120px;
 }
 
 .title-icon {
