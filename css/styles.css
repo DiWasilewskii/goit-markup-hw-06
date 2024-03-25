@@ -580,50 +580,15 @@ address {
   margin-bottom: 16px;
   margin-top: 24px;
 }
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
 
-.modal-field {
-  margin-bottom: 18px;
+.modal-form {
 }
 
 .modal-input {
+  border: 1px solid #2e2f42;
+  border-radius: 4px;
   width: 100%;
-  height: 68px;
-  border: 1.5px solid rgba(17, 17, 17, 0.25);
-  border-radius: 13px;
-  background-color: transparent;
-  outline: transparent;
-  padding-left: 50px;
-  color: teal;
-  transition: border-color 300ms linear;
-}
-
-.modal-input:invalid {
-}
-
-.modal-input:valid {
-}
-
-.modal-input:disabled {
-}
-
-.modal-input:focus {
-}
-
-.modal-input:focus + .modal-icon {
-}
-
-.modal-input::placeholder {
-}
-
-.modal-label {
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.3);
-  display: block;
-  margin-bottom: 4px;
+  height: 40px;
+  margin-bottom: 8px;
+  padding-left: 16px;
 }
