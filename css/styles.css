@@ -540,7 +540,7 @@ address {
 .backdrop {
   position: fixed;
 
-  background: #2e2f4250;
+  background-color: rgba(46, 47, 66, 0.4);
   top: 0;
 
   width: 100%;
@@ -603,27 +603,21 @@ address {
 }
 
 .modal-input:invalid {
-  border-color: red;
 }
 
 .modal-input:valid {
-  border-color: rgb(22, 226, 144);
 }
 
 .modal-input:disabled {
-  background-color: #b2aeae;
 }
 
 .modal-input:focus {
-  border-color: #fd9222;
 }
 
 .modal-input:focus + .modal-icon {
-  stroke: #fd9222;
 }
 
 .modal-input::placeholder {
-  color: purple;
 }
 
 .modal-label {
