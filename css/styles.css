@@ -712,6 +712,11 @@ address {
   fill: transparent;
 }
 
+.check-icon-wrap:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .comment-wrap {
   margin-bottom: 16px;
 }
@@ -721,6 +726,10 @@ address {
 }
 
 .modal-check-icon {
+}
+
+.check-link {
+  color: #4d5ae5;
 }
 
 .modal-button {
