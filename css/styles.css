@@ -698,6 +698,12 @@ address {
   color: #8e8f99;
 }
 
+.modal-check:checked + .check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .check-icon-wrap {
   width: 16px;
   height: 16px;
@@ -712,11 +718,6 @@ address {
   fill: transparent;
 }
 
-.check-icon-wrap:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
 .comment-wrap {
   margin-bottom: 16px;
 }
