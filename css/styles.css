@@ -685,6 +685,7 @@ address {
   letter-spacing: 0.04em;
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
+  margin-bottom: 16px;
 }
 
 .modal-text:focus {
@@ -716,13 +717,7 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.comment-wrap {
-  margin-bottom: 16px;
-}
-
-.checkbox-wrap {
+  margin-right: 8px;
   margin-bottom: 24px;
 }
 
