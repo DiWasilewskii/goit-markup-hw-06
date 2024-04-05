@@ -871,8 +871,9 @@ span {
 }
 
 .sec-three .container {
-  padding-left: 28px;
-  padding-right: 28px;
+  /* padding-left: 28px;
+  padding-right: 28px; */
+  justify-content: center;
 }
 
 .sec-title {
